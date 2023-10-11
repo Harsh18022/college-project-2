@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: linear-gradient( #030303,rgb(32,21,21) , #030303);
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: lightblue;
+}
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: lightblue;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.85rem;    
+    justify-content: space-evenly;
+/* 
+    background: -webkit-linear-gradient( #030303,#eb4141);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  background-color: lightblue;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    background: -webkit-linear-gradient( #030303,#eb4141);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+
+    background: -webkit-linear-gradient( #030303,#eb4141);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.search-bar input{
+    margin: 0 100px 0 300px ;
+    padding: 20px;
+    text-align: center;
+    height: 3px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: rgba(235, 80, 80, 0.205);
+}
+/* img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+} */
+.layout{
+    position: relative;
+    color: black;
+}
+.mid {
+ position: absolute;
+ top: 250px;
+ left: 16px;     
+ font-size: 7rem;   
+ /* color: rgba(235, 80, 80, 0.205); */
+
+ background: -webkit-linear-gradient( #030303,#eb4141);
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.next{
+font-size: 1.5rem;
+width: 250px;
+}
+.about-us{
+    background: transparent;
+    height: auto;
+    width: 200px;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    /* z-index: 10; */
+    padding: 10px;
+    margin: 14px;
+    color: white;
+    border: 2px solid rgba(235, 80, 80, 0.753);
+    border-radius: 40px;
+    background-color: rgba(235, 80, 80, 0.205);
+}
+.about-us:hover{
+    background-color: rgba(235, 80, 80, 0.377);
+    transition: 1s;
+}
+.search-bar input:hover{
+    background-color: rgba(235, 80, 80, 0.377);
+    transition: 1s;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Apply the animation to the element with the class "typing-animation" */
+  .typing-animation {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(40, end) ;
+    /* border-right: 2px solid #333; Optional: Simulate a typing cursor */
+    /* padding-right: 8px; Optional: Adjust cursor spacing */
+  }
+
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position:absolute;
+    top: 900px;
+}
+
+.card {
+    background-color: #574f4f67;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+    word-spacing: 2px;
+    line-height: 25px;
+    color: white;
+}
+.card h2{
+    font-size: 4rem;
+    font-weight: 100;
+}
+button{
+    display: flex;
+    background-color: rgb(26, 24, 24);
+    padding: 5px ;
+    margin: 4px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    justify-items: center;
+    align-self: center;
+    color: white;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Animation */
+.card.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Keyframes for the scroll animation */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.effect{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    background:-webkit-linear-gradient( #695b5b,rgb(128, 57, 57) , #030303) ;
+    z-index: -9;
+    position: absolute;
+    left: 35%;
+   border: none;
+    border-radius: 50%;
+}
+.e{
+    left: 40%;
+    top: 30%;
+}
+.e1{
+    left: -20%;
+    top: 5%;
+}
+.e2{
+    left: 62.5%;
+    top: 0.3%;
+}
+.e3{
+    width: 200px;
+    height: 200px;
+    left: 20%;
+    top: 90%;
+}
+.e4{
+    top: 120%;
+}
+.e5{
+    height: 350px;
+    width: 350px;
+    top: 155%;
+    left: 2%;
+}
+.e6{
+    top: 180%;
+    left: 65%;
+}
+
+  
